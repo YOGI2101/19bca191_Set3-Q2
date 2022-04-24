@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     app:cardCornerRadius="30dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#B3E8DE">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_margin="20dp">
+        android:layout_height="161dp"
+        android:layout_margin="20dp"
+        android:background="#B3E8DE"
+        android:padding="10dp">
 
         <TextView
             android:id="@+id/textView2"
@@ -62,8 +64,8 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:textStyle="bold"
             android:text="Quantity"
+            android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/imgUpdate"
             app:layout_constraintStart_toEndOf="@+id/textView5"
             app:layout_constraintTop_toBottomOf="@+id/txtStructFName" />
@@ -95,8 +97,8 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:textStyle="bold"
             android:text="Price"
+            android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/imgDelete"
             app:layout_constraintStart_toEndOf="@+id/textView7"
             app:layout_constraintTop_toBottomOf="@+id/txtStructFQty" />
@@ -106,9 +108,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:visibility="invisible"
             android:text="FruitID"
             android:textSize="20sp"
+            android:visibility="invisible"
             app:layout_constraintEnd_toStartOf="@+id/imgDelete"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtStructFPrice" />

@@ -5,13 +5,15 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".HomePage">
+    tools:context=".HomePage"
+    android:background="#B3E8DE"
+    >
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fruit Shop"
+        android:text="Shop"
         android:textSize="30sp"
         android:layout_margin="10dp"
         android:layout_gravity="center"

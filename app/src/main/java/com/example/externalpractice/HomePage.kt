@@ -26,7 +26,7 @@ class HomePage : AppCompatActivity() {
                 var res = db.insertFruit(fr)
                 if(res>0)
                 {
-                    Toast.makeText(this,"Fruit Inserted Successfully",Toast.LENGTH_LONG).show()
+                    Toast.makeText(this,"yogi Inserted Successfully",Toast.LENGTH_LONG).show()
                     edtFruitName.setText("")
                     edtFruitPrice.setText("")
                     edtqtyFruit.setText("")
